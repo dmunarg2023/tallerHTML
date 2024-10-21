@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Todo sobre el Tenis</title>
+    
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="lib/style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <h1><strong>Todo sobre el Tenis</strong></h1>
+    <h2><strong>¿Que es el tenis?</strong></h2>
+        <p>El tenis es un deporte que se juega entre dos jugadores, puede ser individuales dos competidores o dobles con dos parejas y 4 competidores. El objetivo es golpear la pelota con una raqueta y que esta pase por encima de la red y aterrice dentro de los límites de la cancha del oponente, estos limites dependen de si se juega en dobles o individual.</p>
+    
+    <h2> <strong>¿Como se manejan los puntos en este deporte?</strong></h2>
+        <p>En el tenis, un juego se compone de puntos, juegos y sets. Cada punto se inicia con un saque, y el jugador que gana el punto suma uno a su cuenta. Para ganar un juego, un jugador debe ganar al menos cuatro puntos y tener una ventaja de al menos dos puntos sobre su oponente. Un set se compone de varios juegos; un jugador debe ganar seis juegos y tener una ventaja de dos para ganar el set. Si ambos jugadores llegan a seis juegos, se juega un desempate. Finalmente, un partido se puede jugar al mejor de tres o cinco sets, dependiendo de la competencia.</p>
+    
+    <h2><strong>¿Tipos de torneos?</strong></h2>
+    <img
+        src="https://i.pinimg.com/control/564x/a6/1d/8c/a61d8ca1346427bb70bfc5082709b6b1.jpg"
+        class="img-fluid"
+        alt="imagen tenis"
+      />
+        <p>En el tenis, existen cuatro grandes torneos conocidos como los Grand Slams:</p>
+        <ul>
+            <li><strong>Australian Opnen</strong>: Jugado en canchas duras a principios de cada año.</li>
+            <li><strong>Roland Garros</strong>: Jugado en canchas de polvo de ladrillo en Francia.</li>
+            <li><strong>Wimbledon</strong>: El es el concodido como el más antiguo, jugado en canchas de césped en Inglaterra.</li>
+            <li><strong>US Open</strong>: Jugado en canchas duras en Estados Unidos.</li>
+        </ul>
+        <p>Además de los Grand Slams, hay otros torneos importantes como los Masters 1000 y las competiciones por equipos como la Copa Davis.</p>
+
+    <h2><strong>Mejores jugadores en la actualidad</strong></h2>
+        <p>Hoy en día, el ranking de la ATP y la WTA está dominado por grandes estrellas del tenis:</p>
+        <ul>
+            <li><strong>ATP (Hombres)</strong>: Carlos Alcaraz ha logrado posicionarse como uno de los mejores jugadores en la actualidad, con su victoria en el US Open y otras competencias.</li>
+            <li><strong>WTA (Mujeres)</strong>: Iga Świątek es una de las jugadoras número 1 más destacadas, con un estilo de juego agresivo y constante en los torneos más importantes.</li>
+        </ul>
+
+        <p>Si quieres conocer más sobre los torneos y el ranking actual de los jugadores, visita el <a href="https://www.atptour.com/" target="_blank">sitio oficial de la ATP</a>.</p>
+
+    <h2><strong>Datos curiosos del tenis</strong></h2>
+        <p>Algunos datos curiosos sobre el tenis que quizás no conocías:</p>
+        <ul>
+            <li>El tenis se jugaba originalmente con las manos en lugar de raquetas.</li>
+            <li>Wimbledon es el único torneo que aún se juega en césped natural.</li>
+            <li>El saque más rápido registrado fue de 263 km/h, realizado por el jugador australiano Sam Groth.</li>
+        </ul>
+
+        
+    <div class="col-md-6">
+              <h2><strong>Para más información</strong></h2>
+              <form>
+                  <div class="form-group">
+                      <label for="name">Nombre Completo:</label>
+                      <input type="name" class="form-control" id="email" placeholder="Ingresa tu nombre completo" required>
+                      <label for="email">Correo electrónico:</label>
+                      <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo" required>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+          </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        for (var i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
